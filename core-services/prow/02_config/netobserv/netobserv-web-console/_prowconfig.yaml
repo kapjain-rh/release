@@ -26,3 +26,8 @@ tide:
     - do-not-merge/work-in-progress
     repos:
     - netobserv/netobserv-web-console
+plank:
+  default_decoration_config_entries:
+    - repo: netobserv/netobserv-web-console
+      config:
+        timeout: 1h0m0s
